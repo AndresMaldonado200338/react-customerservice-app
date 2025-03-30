@@ -21,7 +21,7 @@
 2. **Create and configure the `.env` file**:  
    Once both services are set up correctly, create a `.env` file following the format of the provided `.env.example` file.
    
-   In this `.env` file, add the microservice path shown in **Eureka Service Discovery**. This is necessary so the frontend can access the microservices using the addresses provided by Eureka.
+   In this `.env` file, add the microservice path shown in **Eureka Service Discovery** in the section **'Instances currently registered with Eureka'**. This is necessary so the frontend can access the microservices using the addresses provided by Eureka.
 
    Example:
     ```env
